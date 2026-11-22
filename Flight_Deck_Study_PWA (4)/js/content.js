@@ -180,47 +180,47 @@ window.FDS_CONTENT = {
                 "rows": [
                   [
                     "VMO / MMO (later / B200)",
-                    "260 KCAS / .52 Mach",
+                    "259 KIAS / .52 Mach",
                     "Do not exceed in any operation"
                   ],
                   [
                     "VMO / MMO (early 200)",
-                    "270 KCAS / .48 Mach",
+                    "269 KIAS / .48 Mach",
                     "BB-2 through BB-198 (unless modified)"
                   ],
                   [
                     "VA (maneuvering)",
-                    "182 KCAS / 181 KIAS",
+                    "181 KIAS",
                     "At 12,500 lb — no full/abrupt controls above"
                   ],
                   [
                     "VLO (extend)",
-                    "182 KCAS / 181 KIAS",
+                    "181 KIAS",
                     "Max speed to extend gear"
                   ],
                   [
                     "VLO (retract)",
-                    "164 KCAS / 163 KIAS",
+                    "163 KIAS",
                     "Max speed to retract gear"
                   ],
                   [
                     "VLE",
-                    "182 KCAS / 181 KIAS",
+                    "181 KIAS",
                     "Max speed with gear extended"
                   ],
                   [
                     "VFE — Approach (40%)",
-                    "200 KCAS / KIAS",
+                    "200 KIAS",
                     "Max with flaps at Approach"
                   ],
                   [
                     "VFE — Full (100%)",
-                    "144/146 (200) or 155/157 (B200)",
+                    "146 KIAS",
                     "Max with full flaps"
                   ],
                   [
                     "VMCA",
-                    "91 KCAS / 86 KIAS",
+                    "86 KIAS",
                     "One engine inop, takeoff power"
                   ]
                 ]
@@ -313,9 +313,13 @@ window.FDS_CONTENT = {
                 "t": "ul",
                 "items": [
                   "Category: Normal. Acrobatic maneuvers including spins are prohibited.",
-                  "Maximum weight: Confirm AFM (typically 12,500 lb for many configurations).",
-                  "Load factor limits at 12,500 lb — flaps up: +3.17 / −1.27 G",
+                  "Maximum weight: Confirm AFM (typically 12,500 lbs for many configurations).",
+                  "Load factor limits at 12,500 lbs — flaps up: +3.17 / −1.27 G",
                   "Flaps down: +2.00 / 0 G (B200) or −1.27 G (200)"
+                  "Max ramp weight: 12,590 lbs"
+                  "Max Take-off weight: 12,500 lbs"
+                  "Max landing weight: 12,500 lbs"
+                  "Max zero fuel: 10,400 lbs"
                 ]
               }
             ]
@@ -391,12 +395,22 @@ window.FDS_CONTENT = {
         "questions": [
           {
             "kind": "mcq",
+            "prompt": "What is typical VMO/MMO for later King Air 200/ B200 aircraft?",
+            "choices": [
+              "200 KIAS / .40 Mack",
+              "259 KIAS / .52 Mach",
+              "300 KIAS / .60 Mach",
+              "181 KIAS / .45 Mach"  
+        ],
+        "questions": [
+          {
+            "kind": "mcq",
             "prompt": "What is maneuvering speed (VA) at 12,500 lb?",
             "choices": [
-              "144 KCAS",
-              "182 KCAS / 181 KIAS",
-              "200 KCAS",
-              "260 KCAS"
+              "144 KIAS",
+              "181 KIAS",
+              "200 KIAS",
+              "259 KIAS"
             ],
             "correct": 1
           },
@@ -404,10 +418,10 @@ window.FDS_CONTENT = {
             "kind": "mcq",
             "prompt": "What is the maximum speed to extend the landing gear (VLO extend)?",
             "choices": [
-              "164 KCAS / 163 KIAS",
-              "182 KCAS / 181 KIAS",
-              "200 KCAS",
-              "144 KCAS"
+              "163 KIAS",
+              "181 KIAS",
+              "200 KIAS",
+              "146 KIAS"
             ],
             "correct": 1
           },
@@ -415,10 +429,10 @@ window.FDS_CONTENT = {
             "kind": "mcq",
             "prompt": "What is the maximum speed to retract the landing gear (VLO retract)?",
             "choices": [
-              "182 KCAS / 181 KIAS",
-              "164 KCAS / 163 KIAS",
-              "200 KCAS",
-              "91 KCAS"
+              "181 KIAS",
+              "163 KIAS",
+              "200 KIAS",
+              "86 KIAS"
             ],
             "correct": 1
           },
@@ -426,10 +440,10 @@ window.FDS_CONTENT = {
             "kind": "mcq",
             "prompt": "What is VFE for full (100%) flaps on a typical King Air 200?",
             "choices": [
-              "200 KCAS",
-              "182 KCAS",
-              "Approximately 144–146 KCAS (confirm AFM; B200 often higher)",
-              "91 KCAS"
+              "200 KIAS",
+              "181 KIAS",
+              "146 KIAS (confirm AFM; B200 often higher)",
+              "86 KIAS"
             ],
             "correct": 1
           },
@@ -437,10 +451,10 @@ window.FDS_CONTENT = {
             "kind": "mcq",
             "prompt": "What is the approximate air minimum control speed (VMCA)?",
             "choices": [
-              "60 KCAS",
-              "91 KCAS / 86 KIAS",
-              "120 KCAS",
-              "182 KCAS"
+              "60 KIAS",
+              "86 KIAS",
+              "120 KIAS",
+              "181 KIAS"
             ],
             "correct": 2
           },
