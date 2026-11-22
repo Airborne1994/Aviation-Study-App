@@ -1,0 +1,18 @@
+{
+  "name": "aviation-study-app",
+  "version": "1.0.0",
+  "description": "Aviation Study App – Flashcards, quizzes & progress tracking (PWA)",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "serve": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "aviation",
+    "pwa",
+    "flashcards",
+    "pilot",
+    "study"
+  ],
+  "license": "MIT"
+}
